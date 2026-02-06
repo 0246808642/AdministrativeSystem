@@ -9,7 +9,7 @@ public class Client
     public DateTime CreatedAt { get; private set; }
     
     protected Client() {} // EF
-
+    
     public Client(string name, string email)
     {
         Id = Guid.NewGuid();

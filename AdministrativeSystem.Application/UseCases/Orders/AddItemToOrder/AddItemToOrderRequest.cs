@@ -1,0 +1,8 @@
+﻿namespace AdministrativeSystem.Application.UseCases.Orders.AddItemToOrder;
+
+public class AddItemToOrderRequest
+{
+    public Guid OrderId { get; set; }
+    public Guid ProductId { get; set; }
+    public int Quantity { get; set; }
+}
